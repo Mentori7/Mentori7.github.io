@@ -10,17 +10,17 @@ myImage.onclick = function() {
 }
 
 var myButton = document.querySelector("button");
-var myHeading = document.querySelector("h1");
+var myHeading = document.querySelector("h2");
 function setUserName() {
     var myName = prompt("Tach Keule, geb doch mal deinen Namen ein.");
     localStorage.setItem("name", myName);
-    myHeading.textContent = "(Bruce Lee), Hey " + myName;
+    myHeading.textContent = "Das könnte dich interessieren " + myName;
 }
 if(!localStorage.getItem("name")) {
     setUserName();
 } else {
     var storedName = localStorage.getItem("name");
-    myHeading.textContent = "(Bruce Lee), Tach " + storedName;
+    myHeading.textContent = "Das könnte dich interessieren " + storedName;
 }
 myButton.onclick = function() {
     setUserName();

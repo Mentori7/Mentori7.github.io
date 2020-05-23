@@ -12,7 +12,11 @@ h1 {
     color: black;
     text-shadow: 15px 5px 7px #404040;
 }
-h4 {
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
     font-size: 20px;
     line-height: 0;
 }
