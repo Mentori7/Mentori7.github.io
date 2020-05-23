@@ -1,0 +1,35 @@
+html {
+    font-size: 10px; /* pc bedeutet "pixels": die Schriftgröße wird auf 10 Pixel gesetzt */
+    font-family: Caladea; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+    background-color: #a6a6a6;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+    color: black;
+    text-shadow: 15px 5px 7px #404040;
+}
+h4 {
+    font-size: 20px;
+    line-height: 0;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+body {
+    width: 600px;
+    margin: 10px Auto;
+    background-color: #e6e6e6;
+    padding: 0px 20px 20px 20px;
+    border: 2px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
